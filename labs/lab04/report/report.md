@@ -19,7 +19,7 @@ group: "НКАБД-05-22"
 Целью работы является освоение процедуры оформления отчетов с помощью легковесного языка разметки Markdown.
 
 i. Я установил следующие программы: Text Live, Pandoc и Pandoc-crossref. (рис. [-@fig:001])
-![1pic lab4.jpg] (https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab04/report/image/1pic%20lab4.jpg)
+![1pic lab4.jpg] (https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab04/report/image/1pic%20lab4.jpg?raw=true)
 { #fig:001 width=70% }
 (рис. [-@fig:002])
 ![2pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/2pic%20lab4.jpg)
