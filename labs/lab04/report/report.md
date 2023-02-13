@@ -25,11 +25,11 @@ i. Я установил следующие программы: Text Live, Pando
 ![2pic lab4.jpg](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab04/report/image/2pic%20lab4.jpg?raw=true)
 { #fig:002 width=70% }
 (рис. [-@fig:003])
-![3pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/3pic%20lab4.jpg)
+![3pic lab4.jpg](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab04/report/image/3pic%20lab4.jpg?raw=true)
 { #fig:003 width=70% }
 
 ii. создал файлы в отчете, а именно report.pdf и report.docx. (рис. [-@fig:004])
-![4pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/4pic%20lab4.jpg)
+![4pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/4pic%20lab4.jpg?raw=true)
 { #fig:004 width=70% }
 (рис. [-@fig:005])
 ![5pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/5pic%20lab4.jpg)
