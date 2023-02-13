@@ -7,68 +7,6 @@ group: "НКАБД-05-22"
 "Факультет физико-математических и естественных наук"
 "Кафедра прикладной информатики и теории вероятностей"
 "МОСКВА, 2022 г." 
-
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
-
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
-
 ---
 
 # Содержание
@@ -81,7 +19,7 @@ header-includes:
 Целью работы является освоение процедуры оформления отчетов с помощью легковесного языка разметки Markdown.
 
 i. Я установил следующие программы: Text Live, Pandoc и Pandoc-crossref. (рис. [-@fig:001])
-![1pic lab4.jpg] (file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/1pic%20lab4.jpg)
+![1pic lab4.jpg] (https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab04/report/image/1pic%20lab4.jpg)
 { #fig:001 width=70% }
 (рис. [-@fig:002])
 ![2pic lab4.jpg](file:///home/goarioke/work/study/2022-2023/Computer%20Architecture/arch-pc/labs/lab04/report/image/2pic%20lab4.jpg)
