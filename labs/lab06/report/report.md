@@ -1,119 +1,83 @@
 ---
 ## Front matter
-title: "Шаблон отчёта по лабораторной работе"
-subtitle: "Простейший вариант"
-author: "Дмитрий Сергеевич Кулябов"
-
-## Generic otions
-lang: ru-RU
-toc-title: "Содержание"
-
-## Bibliography
-bibliography: bib/cite.bib
-csl: pandoc/csl/gost-r-7-0-5-2008-numeric.csl
-
-## Pdf output format
-toc: true # Table of contents
-toc-depth: 2
-lof: true # List of figures
-lot: true # List of tables
-fontsize: 12pt
-linestretch: 1.5
-papersize: a4
-documentclass: scrreprt
-## I18n polyglossia
-polyglossia-lang:
-  name: russian
-  options:
-	- spelling=modern
-	- babelshorthands=true
-polyglossia-otherlangs:
-  name: english
-## I18n babel
-babel-lang: russian
-babel-otherlangs: english
-## Fonts
-mainfont: PT Serif
-romanfont: PT Serif
-sansfont: PT Sans
-monofont: PT Mono
-mainfontoptions: Ligatures=TeX
-romanfontoptions: Ligatures=TeX
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-monofontoptions: Scale=MatchLowercase,Scale=0.9
-## Biblatex
-biblatex: true
-biblio-style: "gost-numeric"
-biblatexoptions:
-  - parentracker=true
-  - backend=biber
-  - hyperref=auto
-  - language=auto
-  - autolang=other*
-  - citestyle=gost-numeric
-## Pandoc-crossref LaTeX customization
-figureTitle: "Рис."
-tableTitle: "Таблица"
-listingTitle: "Листинг"
-lofTitle: "Список иллюстраций"
-lotTitle: "Список таблиц"
-lolTitle: "Листинги"
-## Misc options
-indent: true
-header-includes:
-  - \usepackage{indentfirst}
-  - \usepackage{float} # keep figures where there are in the text
-  - \floatplacement{figure}{H} # keep figures where there are in the text
+title: "отчёта по лабораторной работе"
+author: "Ариоке Габриэль Одафе"
+group: "НКАБД-05-22"
 ---
+
+# Содержание
+1. Цель работы.
+2. Теоретическое введение.
+3. Выполнение лабораторной работы.
+4. Заданние для самостоятельной работы
+5. Выводы.
 
 # Цель работы
 
-Здесь приводится формулировка цели лабораторной работы. Формулировки
-цели для каждой лабораторной работы приведены в методических
-указаниях.
-
-Цель данного шаблона --- максимально упростить подготовку отчётов по
-лабораторным работам.  Модифицируя данный шаблон, студенты смогут без
-труда подготовить отчёт по лабораторным работам, а также познакомиться
-с основными возможностями разметки Markdown.
-
-# Задание
-
-Здесь приводится описание задания в соответствии с рекомендациями
-методического пособия и выданным вариантом.
+Приобретение практических навыков работы в Midnight Commander. Освоение инструкций языка ассемблера mov и int.
 
 # Теоретическое введение
 
-Здесь описываются теоретические аспекты, связанные с выполнением работы.
+Midnight Commander (или просто mc) — это программа, которая позволяет просматривать структуру каталогов и выполнять основные операции по управ- лению файловой системой, т.е. mc является файловым менеджером. Midnight Commander позволяет сделать работу с файлами более удобной и наглядной. Для активации оболочки Midnight Commander достаточно ввести в командной строке mc и нажать клавишу Enter
 
-Например, в табл. [-@tbl:std-dir] приведено краткое описание стандартных каталогов Unix.
+# Выполнение лабораторной работы.
 
-: Описание некоторых каталогов файловой системы GNU Linux {#tbl:std-dir}
+Откроем Midnight commander с помощью команды.(рис. [-@fig:001])
+![1.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/1.png?raw=true){ #fig:001 width=70% }
 
-| Имя каталога | Описание каталога                                                                                                          |
-|--------------|----------------------------------------------------------------------------------------------------------------------------|
-| `/`          | Корневая директория, содержащая всю файловую                                                                               |
-| `/bin `      | Основные системные утилиты, необходимые как в однопользовательском режиме, так и при обычной работе всем пользователям     |
-| `/etc`       | Общесистемные конфигурационные файлы и файлы конфигурации установленных программ                                           |
-| `/home`      | Содержит домашние директории пользователей, которые, в свою очередь, содержат персональные настройки и данные пользователя |
-| `/media`     | Точки монтирования для сменных носителей                                                                                   |
-| `/root`      | Домашняя директория пользователя  `root`                                                                                   |
-| `/tmp`       | Временные файлы                                                                                                            |
-| `/usr`       | Вторичная иерархия для данных пользователя                                                                                 |
+Перехожу в каталоя ~/work/arch-pc созданный при выполнении лаборатор- ной работы No5.(рис. [-@fig:002])
+![2.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/2.png?raw=true){ #fig:002 width=70% }
 
-Более подробно об Unix см. в [@gnu-doc:bash;@newham:2005:bash;@zarrelli:2017:bash;@robbins:2013:bash;@tannenbaum:arch-pc:ru;@tannenbaum:modern-os:ru].
+С помощью функциональной клавиши F7 создайте папку lab06 и перехожу в созданный каталог.(рис. [-@fig:003])
+![3.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/3.png?raw=true){ #fig:003 width=70% }
 
-# Выполнение лабораторной работы
+Пользуясь строкой ввода и командой touch создайте файл lab6-1.asm.(рис. [-@fig:004])
+![4.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/4.png?raw=true){ #fig:004 width=70% }
 
-Описываются проведённые действия, в качестве иллюстрации даётся ссылка на иллюстрацию (рис. [-@fig:001])
+С помощью функциональной клавиши F4 откройте файл lab6-1.asm для редактирования во встроенном редактора Midnight Commander.(рис. [-@fig:005])
+![5 and 7.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/5%20and%207.png?raw=true){ #fig:005 width=70% }
 
-![Название рисунка](image/placeimg_800_600_tech.jpg){ #fig:001 width=70% }
+(рис. [-@fig:006])
+![6.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/6.png?raw=true){ #fig:006 width=70% }
 
+С помощыо функчиональной клавиши F3 открываю файл lab6-1.asm для просмотра.Убеждаюсь, что файл содержить текст программы.(рис. [-@fig:007])
+![5 and 7.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/5%20and%207.png?raw=true){ #fig:007 width=70% }
+
+Оттранслируйте текст программы lab6-1.asm в объектный файл. Выполните компоновку объектного файла и запустите получившийся исполняемый файл. Програм- ма выводит строку ‘Введите строку:’ и ожидает ввода с клавиатуры.(рис. [-@fig:008])
+![8.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/8.png?raw=true){ #fig:008 width=70% }
+
+Я скачал файл in_out.asm со страницы курса туис Подключаемый файл in_out.asm должен лежать в том же каталоге, что и файл с программой, в которой он используется. В одной из панелей mc от- кройте каталог с файлом lab6-1.asm. В другой панели каталог со скаченным файлом in_out.asm (для перемещения между панелями используйте Tab (рис. [-@fig:009])
+![9.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/9.png?raw=true){ #fig:009 width=70% }
+
+(рис. [-@fig:010])
+![10.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/10.png?raw=true){ #fig:010 width=70% }
+
+Скопируйте файл in_out.asm в каталог с файлом lab6-1.asm с помощью функциональной клавиши F5.(рис. [-@fig:011])
+![11.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/11.png?raw=true){ #fig:011 width=70% }
+
+С помощью функциональной клавиши F6 создайте копию файла lab6-1.asm с именем lab6-2.asm. Выделите файл lab6-1.asm, нажмите клавишу F6 , вве- дите имя файла lab6-2.asm и нажмите клавишу Enter(рис. [-@fig:012])
+![12.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/12.png?raw=true){ #fig:012 width=70% }
+
+Исправляю тектс программы в файле la6-2.asm с использование подпрогра- ми из внешнего файла in_out.asm в соотвествии с листингом 6.2) создаю исполняемый файл и проверяю его работу)(рис. [-@fig:013])
+![13.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/13.png?raw=true){ #fig:013 width=70% }
+
+(рис. [-@fig:014])
+![14.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/14.png?raw=true){ #fig:014 width=70% }
+В файле lab6-2.asm замените подпрограмму sprintLF на sprint. Создайте исполняемый файл и проверьте его работу
+подпрограмма sprint Запуск
+
+# Заданние для самостоятельной работы
+Создайте копию файла lab6-1.asm. Внесите изменения в программу (без использования внешнего файла in_out.asm)(рис. [-@fig:015])
+![15.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/15.png?raw=true){ #fig:015 width=70% }
+
+(рис. [-@fig:016])
+![16.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/16.png?raw=true){ #fig:016 width=70% }
+
+(рис. [-@fig:017])
+![17.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab06/report/image/17.png?raw=true){ #fig:017 width=70% }
 # Выводы
 
-Здесь кратко описываются итоги проделанной работы.
-
-# Список литературы{.unnumbered}
+Приобрел практические навыки работы в Midnight Commader и освоил инструк- ции языка ассемблера mov и int.
 
 ::: {#refs}
 :::
