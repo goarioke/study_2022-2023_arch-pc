@@ -38,47 +38,47 @@ viii. Скопируйте файлы hello.asm и lab5.asm в Ваш локал
 (рис. [-@fig:001])
 ![1.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/1.png?raw=true){ #fig:001 width=70% }
 
-(рис. [-@fig:001])
+(рис. [-@fig:002])
 ![2.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/2.png?raw=true){ #fig:002 width=70% }
 
 Транслятор NASM, Расширенный ситаксис командой строки NASM и Ком- поновщик LD. Я скомпилировал программу «Hello World», используя NASM, расширенный синтаксис командной строки NASM и компоновщик LD, как показано на рисунке ниже.
 
-(рис. [-@fig:001])
+(рис. [-@fig:003])
 ![3.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/3.png?raw=true){ #fig:003 width=70% }
 
-(рис. [-@fig:001]
+(рис. [-@fig:004]
 ![4.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/4.png?raw=true){ #fig:004 width=70% }
 
 Запуск исполняемого файла Я выполнил сгенерированный исполняемый файл, расположенный в каталоге.
 
-(рис. [-@fig:001])
+(рис. [-@fig:005])
 ![5.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/5.png?raw=true){ #fig:005 width=70% }
 
 # 5. Заданние для самостоятельной работы
 В каталоге ~/work/arch-pc/lab05 я использовал команду cp для создания файла hello.asm с именем lab5.asm.
 
-(рис. [-@fig:001])
+(рис. [-@fig:006])
 ![6.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/6.png?raw=true){ #fig:006 width=70% }
 
 С помощью текстового редактора я отредактировал текст программы в файле lab5.asm, чтобы вместо Hello world! на экране отображалась строка моего имени и фамилии.
 
-(рис. [-@fig:001])
+(рис. [-@fig:007])
 ![7.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/7.png?raw=true){ #fig:007 width=70% }
 
 Я перевел получившийся текст программы lab5.asm в объектный файл. Свя- зал объект и запустил полученный исполняемый файл.
 
-(рис. [-@fig:001])
+(рис. [-@fig:008])
 ![8.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/8.png?raw=true){ #fig:008 width=70% }
 
-(рис. [-@fig:001])
+(рис. [-@fig:009])
 ![9.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/9.png?raw=true){ #fig:009 width=70% }
 
 Я скопировал файлы hello.asm и lab5.asm в свой локальный репозиторий, а также загрузил файлы на github.
 
-(рис. [-@fig:001])
+(рис. [-@fig:0010])
 ![10.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/10.png?raw=true){ #fig:010 width=70% }
 
-(рис. [-@fig:001])
+(рис. [-@fig:011])
 ![11.png](https://github.com/goarioke/study_2022-2023_arch-pc/blob/master/labs/lab05/report/image/11.png?raw=true){ #fig:011 width=70% }
 
 # Выводы
